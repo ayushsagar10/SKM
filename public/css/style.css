@@ -1761,6 +1761,8 @@ a:focus {
     transition: -webkit-transform .15s ease;
     transition: transform .15s ease;
     transition: transform .15s ease,-webkit-transform .15s ease;
+    /* border:4px solid;
+    border-radius: 100px; */
 }
 .bulleticon {
     display: inline-block;
