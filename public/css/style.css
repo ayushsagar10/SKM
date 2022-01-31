@@ -1735,3 +1735,40 @@ a:focus {
 .product-carousel .owl-item.center .testimonial-item img {
     transform: scale(.8);
 }
+ .head {
+    font-weight: 600;
+    font-size: 22px;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    padding: 7px;
+    margin-bottom: 12px;
+    background: #202C45;
+}
+.subhead{
+  font-weight: 500;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.iconstyle {
+    border-top: 8px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    color:  #E81C2E;
+    margin-right: 5px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transition: -webkit-transform .15s ease;
+    transition: transform .15s ease;
+    transition: transform .15s ease,-webkit-transform .15s ease;
+}
+.bulleticon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 8px dashed;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
