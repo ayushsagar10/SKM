@@ -101,11 +101,15 @@
             }
         }
     });
-    $(".product-carousel").owlCarousel({
+    $(".carousel-2 .product-carousel").owlCarousel({
         center: true,
         autoplay: true,
         smartSpeed: 2000,
-        dots: true,
+        nav : true,
+        navText : [
+            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+        ],
         loop: true,
         responsive: {
             0:{
