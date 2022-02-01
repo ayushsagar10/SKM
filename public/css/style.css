@@ -1563,7 +1563,11 @@ a:focus {
   cursor: pointer;
   transition: 0.4s;
 }
-
+@media (max-width: 1199px) {
+    .card{
+      margin: 30px 24px;
+    }
+}
 .card .card_image {
   width: inherit;
   height: inherit;
@@ -1667,11 +1671,11 @@ a:focus {
 }
 
 .carousel-2 .owl-nav .owl-prev {
-    margin-left: 10px;
+    margin-left: -60px;
 }
 
 .carousel-2 .owl-nav .owl-next {
-    margin-right: 10px;
+    margin-right: -60px;
 }
 
 .carousel-2 .owl-nav .owl-prev:hover,
