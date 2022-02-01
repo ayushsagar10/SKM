@@ -1557,17 +1557,14 @@ a:focus {
 }
 
 .card {
-  margin: 30px 150px;
+  margin: 30px auto;
   width: 250px;
   height: 320px;
   cursor: pointer;
   transition: 0.4s;
 }
-@media (max-width: 1199px) {
-    .card{
-      margin: 30px 24px;
-    }
-}
+
+
 .card .card_image {
   width: inherit;
   height: inherit;
@@ -1685,4 +1682,13 @@ a:focus {
 }
 .carousel-2 .owl-carousel .owl-nav.disabled {
     display: flex;
+}
+@media(max-width:991px){
+  .carousel-2 .owl-nav .owl-prev {
+      margin-left: 0;
+  }
+
+  .carousel-2 .owl-nav .owl-next {
+      margin-right: 0;
+  }
 }
