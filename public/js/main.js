@@ -103,7 +103,7 @@
     });
     $(".carousel-2 .product-carousel").owlCarousel({
         center: true,
-        smartSpeed: 2000,
+        smartSpeed: 1000,
         nav : true,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
