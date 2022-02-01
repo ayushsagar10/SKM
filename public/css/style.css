@@ -1563,7 +1563,11 @@ a:focus {
   cursor: pointer;
   transition: 0.4s;
 }
-
+@media (max-width: 1199px) {
+    .card{
+      margin: 30px 24px;
+    }
+}
 .card .card_image {
   width: inherit;
   height: inherit;
@@ -1661,17 +1665,17 @@ a:focus {
     justify-content: center;
     color: #ffffff;
     border-radius: 50px;
-    background: rgba(256, 256, 256, .2);
+    background: rgba(32,44,69,0.5);
     font-size: 22px;
     transition: .5s;
 }
 
 .carousel-2 .owl-nav .owl-prev {
-    margin-left: 10px;
+    margin-left: -60px;
 }
 
 .carousel-2 .owl-nav .owl-next {
-    margin-right: 10px;
+    margin-right: -60px;
 }
 
 .carousel-2 .owl-nav .owl-prev:hover,

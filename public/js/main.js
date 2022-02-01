@@ -103,7 +103,6 @@
     });
     $(".carousel-2 .product-carousel").owlCarousel({
         center: true,
-        autoplay: true,
         smartSpeed: 2000,
         nav : true,
         navText : [
@@ -119,9 +118,9 @@
                 items:1
             },
             768:{
-                items:2
+                items:3
             },
-            992:{
+            1200:{
                 items:4
             }
         }
