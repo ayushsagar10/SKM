@@ -101,6 +101,26 @@
             }
         }
     });
+    $(".clients-carousel").owlCarousel({
+      nav: false,
+dots: false,
+autoplay:true,
+autoplayTimeout:2500,
+autoplaySpeed:2500,
+slideTransition: 'linear',
+autoplayHoverPause:true,
+animateOut: 'fadeOut',
+  animateIn: 'zoomIn',
+loop:true,
+responsive: {
+  0: {
+    items: 1,
+  },
+  992: {
+    items: 4,
+  }
+        }
+    });
     $(".carousel-2 .product-carousel").owlCarousel({
         center: true,
         smartSpeed: 1000,
@@ -127,19 +147,6 @@
     });
 
 
-// $(document).ready(function() {
-//     $("#news-slider").owlCarousel({
-//         items : 3,
-//         itemsDesktop:[1199,3],
-//         itemsDesktopSmall:[980,2],
-//         itemsMobile : [600,1],
-//         navigation:true,
-//         navigationText:["",""],
-//         pagination:true,
-//         autoPlay:true
-//     });
-// });
-    // Related post carousel
     $(".related-slider").owlCarousel({
         autoplay: true,
         dots: false,
