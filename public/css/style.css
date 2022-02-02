@@ -1616,6 +1616,7 @@ a:focus {
 .subhead{
   font-weight: 500;
   font-size: 19px;
+  margin-top: 5px;
   vertical-align: middle;
 }
 .iconstyle {
