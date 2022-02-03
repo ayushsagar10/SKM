@@ -293,8 +293,6 @@ a:focus {
 
 .carousel .carousel-text {
     position: absolute;
-    max-width: 992px;
-    padding: 0 15px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -321,7 +319,6 @@ a:focus {
 }
 
 .carousel .carousel-text p {
-    max-width: 500px;
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 40px;
@@ -601,6 +598,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    margin-top: 50px;
 }
 
 .about .section-header {
@@ -744,6 +742,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    margin-bottom: 60px;
 }
 
 .testimonial .testimonials-carousel {
@@ -1705,10 +1704,13 @@ a:focus {
   }
 }
 .mt-top{
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .clients-carousel .owl-stage{
   transform: translate3d(0px, 0px, 0px);
+}
+.clients-carousel{
+  margin: 100px auto;
 }
 .client-img{
   width:150px;
