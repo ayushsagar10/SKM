@@ -143,6 +143,14 @@
     }
   });
 
+  var $anchors = $('.menu-link'),
+     $items = $('.nav-link');
 
+     $anchors.on('click', function() {
+         var href = $(this).attr('href');
+
+         $('.nav').find('.nav-item').removeClass('active');
+         $('.nav').find('.nav-item[href="'+href+'"]').addClass('active');
+     });
 
 })(jQuery);
