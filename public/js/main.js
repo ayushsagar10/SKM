@@ -75,7 +75,6 @@
   // Testimonials carousel
   $(".testimonials-carousel").owlCarousel({
     center: true,
-    autoplay: true,
     smartSpeed: 2000,
     dots: true,
     loop: true,
@@ -121,6 +120,7 @@
   });
   $(".carousel-2 .product-carousel").owlCarousel({
     center: true,
+      smartSpeed: 2000,
     nav: true,
     navText: [
       '<i class="fa fa-angle-left" aria-hidden="true"></i>',
@@ -143,6 +143,14 @@
     }
   });
 
+  var $anchors = $('.menu-link'),
+     $items = $('.nav-link');
 
+     $anchors.on('click', function() {
+         var href = $(this).attr('href');
+
+         $('.nav').find('.nav-item').removeClass('active');
+         $('.nav').find('.nav-item[href="'+href+'"]').addClass('active');
+     });
 
 })(jQuery);

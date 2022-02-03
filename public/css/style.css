@@ -14,11 +14,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #202C45;
+    color:#000033;
 }
 
 a {
-    color: #202C45;
+    color:#000033;
     transition: .3s;
 }
 
@@ -39,7 +39,7 @@ a:focus {
     background: #E81C2E;
     border: none;
     border-radius: 60px;
-    box-shadow: inset 0 0 0 0 #202C45;
+    box-shadow: inset 0 0 0 0#000033;
     transition: ease-out 0.5s;
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
@@ -47,8 +47,8 @@ a:focus {
 
 .btn.btn-custom:hover {
     color: #E81C2E;
-    background: #202C45;
-    box-shadow: inset 200px 0 0 0 #202C45;
+    background:#000033;
+    box-shadow: inset 200px 0 0 0#000033;
 }
 .footer-newsletter .form-control{
   color:white;
@@ -144,7 +144,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #202C45;
+    background:#000033;
 }
 
 
@@ -154,7 +154,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #202C45;
+    background:#000033;
 }
 
 .nav-bar.nav-sticky {
@@ -168,7 +168,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: #202C45 !important;
+    background:#000033 !important;
     transition: .3s;
 }
 
@@ -205,7 +205,7 @@ a:focus {
 }
 
 .nav-bar .btn.btn-custom {
-    color: #202C45;
+    color:#000033;
     background: #ffffff;
     box-shadow: inset 0 0 0 0 #E81C2E;
 }
@@ -450,7 +450,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #202C45;
+    background:#000033;
     border-top: 1px dotted #ffffff;
 }
 
@@ -653,7 +653,7 @@ a:focus {
 }
 
 .service .service-item i {
-    color: #202C45;
+    color:#000033;
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 20px;
@@ -663,7 +663,7 @@ a:focus {
     margin: 0;
     font-size: 60px;
     line-height: 60px;
-    background-image: linear-gradient(#E81C2E, #202C45);
+    background-image: linear-gradient(#E81C2E,#000033);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .5s;
@@ -691,7 +691,7 @@ a:focus {
     margin: 45px 0;
     display: flex;
     align-items: center;
-    background: #202C45;
+    background:#000033;
 }
 
 .facts .facts-item {
@@ -837,7 +837,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 35px 30px 10px 30px;
     border-radius: 5px;
-    background: #202C45;
+    background:#000033;
 
 }
 
@@ -867,7 +867,7 @@ a:focus {
 
 .contact .contact-info-icon i {
     margin: 0;
-    color: #202C45;
+    color:#000033;
     font-size: 16px;
 }
 
@@ -899,14 +899,14 @@ a:focus {
 .contact .contact-form input {
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid #202C45;
+    border: 1px solid#000033;
 }
 
 .contact .contact-form textarea {
     height: 125px;
     padding: 8px 15px;
     border-radius: 5px;
-    border: 1px solid #202C45;
+    border: 1px solid#000033;
 }
 
 .contact .help-block ul {
@@ -953,8 +953,8 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 500;
-    color: #202C45;
-    border: 1px solid #202C45;
+    color:#000033;
+    border: 1px solid#000033;
     border-radius: 5px;
 }
 
@@ -966,7 +966,7 @@ a:focus {
 
 .single .single-bio {
     padding: 30px;
-    background: #202C45;
+    background:#000033;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1015,7 +1015,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #202C45;
+    color:#000033;
     background: #ffffff;
     border-radius: 40px;
     margin-right: 5px;
@@ -1119,7 +1119,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #202C45;
+    background:#000033;
     border-radius: 5px;
     font-size: 16px;
     transition: .3s;
@@ -1187,7 +1187,7 @@ a:focus {
     padding: 3px 10px;
     font-size: 14px;
     font-weight: 500;
-    color: #202C45;
+    color:#000033;
     background: #dddddd;
     border-radius: 5px;
 }
@@ -1292,7 +1292,7 @@ a:focus {
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #202C45;
+    color:#000033;
     background: none;
     border-radius: 0;
     border: none;
@@ -1318,7 +1318,7 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #202C45;
+    background:#000033;
     border-radius: 0;
 }
 
@@ -1387,8 +1387,8 @@ a:focus {
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #202C45;
-    border: 1px solid #202C45;
+    color:#000033;
+    border: 1px solid#000033;
     border-radius: 5px;
 }
 
@@ -1422,7 +1422,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #202C45;
+    background:#000033;
 }
 
 .footer .footer-contact,
@@ -1479,7 +1479,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #202C45;
+    color:#000033;
     background: #ffffff;
     border-radius: 40px;
     margin-right: 5px;
@@ -1524,7 +1524,7 @@ a:focus {
 
 .footer .footer-newsletter .btn.btn-custom {
     width: 100%;
-    color: #202C45;
+    color:#000033;
     background: #ffffff;
     box-shadow: inset 0 0 0 0 #E81C2E;
 }
@@ -1623,7 +1623,7 @@ a:focus {
     padding: 0px;
     padding: 7px;
     margin-bottom: 12px;
-    background: #202C45;
+    background:#000033;
 }
 .subhead{
   font-weight: 500;
@@ -1713,4 +1713,7 @@ a:focus {
 }
 .client-img{
   width:150px;
+}
+.iframe-class{
+  margin-left: 20%;
 }
