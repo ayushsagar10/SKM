@@ -98,11 +98,12 @@
     nav: false,
     dots: false,
     autoplay: true,
+      loop: true,
       autoplaySpeed: 2200,
       autoplayTimeout: 2200,
       autoplayHoverPause: true,
       slideTransition: 'linear',
-    loop: true,
+
     responsive: {
       0: {
         items: 2,

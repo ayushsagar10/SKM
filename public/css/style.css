@@ -815,11 +815,11 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 10px;
-    background: #dddddd;
+    background: #dddddd!important;
 }
 
 .testimonial .owl-dot.active {
-    background: #E81C2E;
+    background: #E81C2E!important;
 }
 
 
