@@ -1719,3 +1719,6 @@ a:focus {
 .collage{
   margin: 50px 0;
 }
+.pbanner img{
+  width:100%;
+}
