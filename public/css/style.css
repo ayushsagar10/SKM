@@ -320,8 +320,9 @@ a:focus {
 
 .carousel .carousel-text p {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 40px;
+    font-weight: bolder;
 }
 
 .carousel .btn.btn-custom {
@@ -610,6 +611,7 @@ a:focus {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 30px;
+    
 }
 
 .about .about-content {
@@ -643,6 +645,7 @@ a:focus {
 }
 
 .service .service-item {
+  text-align: center;
     position: relative;
     width: 100%;
     display: flex;
@@ -655,6 +658,25 @@ a:focus {
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 20px;
+}
+
+.sicon{
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+#about{
+  padding-top: 5px;
+  margin-bottom: 60px;
+}
+
+#services{
+  padding-top: 20px;
+}
+
+#ass{
+  margin-top: 125px;
+  margin-bottom: 71px;
 }
 
 .service .service-item [class^="flaticon-"]::before {
@@ -1713,7 +1735,7 @@ a:focus {
   margin: 100px auto;
 }
 .client-img{
-  width:150px;
+  width:200px;
 }
 .iframe-class{
   margin-left: 20%;
