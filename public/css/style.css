@@ -1505,7 +1505,9 @@ a:focus {
     margin-right: 5px;
     transition: .5s;
 }
-
+.footer-contact a{
+  color: white;
+}
 .footer .footer-social a:last-child {
     margin: 0;
 }
