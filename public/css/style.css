@@ -1704,11 +1704,11 @@ a:focus {
 }
 
 .carousel-2 .owl-nav .owl-prev {
-    margin-left: -60px;
+    margin-left: -40px;
 }
 
 .carousel-2 .owl-nav .owl-next {
-    margin-right: -60px;
+    margin-right: -40px;
 }
 
 .carousel-2 .owl-nav .owl-prev:hover,
