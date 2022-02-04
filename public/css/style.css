@@ -10,6 +10,8 @@ body {
 
 }
 
+
+
 h1,
 h2,
 h3,
@@ -696,7 +698,7 @@ a:focus {
 }
 
 #about{
-  padding-top: 5px;
+  padding-top: 10px;
   margin-bottom: 60px;
 }
 
@@ -1610,7 +1612,8 @@ a:focus {
 }
 
 .logo-img-top{
-  width:60px;
+  width:70px;
+  margin-right: 8px;
 }
 
 .cards-list {
